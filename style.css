@@ -308,3 +308,21 @@ body{
 
     letter-spacing: -4px;
 }
+
+#condition {
+    margin-top: 12px;
+
+    color: #dbeafe;
+
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+#feelsLike {
+    margin-top: 7px;
+
+    color: var(--muted);
+
+    font-size: 14px;
+}
