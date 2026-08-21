@@ -326,3 +326,67 @@ body{
 
     font-size: 14px;
 }
+
+/* =========================
+   WEATHER DETAILS
+========================= */
+
+.weather-details {
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    gap: 15px;
+}
+
+.detail {
+    padding: 20px;
+
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 18px;
+
+    background: rgba(255, 255, 255, 0.05);
+
+    transition: 0.3s;
+}
+
+.detail:hover {
+    transform: translateY(-4px);
+
+    background: rgba(255, 255, 255, 0.09);
+}
+
+.detail span {
+    font-size: 24px;
+}
+
+.detail p {
+    margin-top: 12px;
+
+    color: var(--muted);
+
+    font-size: 13px;
+}
+
+.detail strong {
+    display: block;
+
+    margin-top: 5px;
+
+    font-size: 18px;
+}
+
+/* =========================
+   FORECAST
+========================= */
+
+.forecast {
+    margin-top: 35px;
+}
+
+.forecast h2 {
+    margin-bottom: 18px;
+
+    font-size: 21px;
+}
