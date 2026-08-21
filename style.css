@@ -139,3 +139,41 @@ body{
 
     transition: 0.3s;
 }
+
+#cityInput::placeholder {
+    color: #8292a8;
+}
+
+#cityInput:focus {
+    border-color: var(--primary);
+
+    box-shadow:
+        0 0 0 3px rgba(56, 189, 248, 0.12);
+}
+
+#searchBtn {
+    height: 55px;
+
+    padding: 0 25px;
+
+    border: none;
+    border-radius: 16px;
+
+    background: linear-gradient(
+        135deg,
+        #38bdf8,
+        #0284c7
+    );
+
+    color: white;
+
+    font-size: 15px;
+    font-weight: 600;
+
+    cursor: pointer;
+
+    box-shadow:
+        0 10px 30px rgba(14, 165, 233, 0.25);
+
+    transition: 0.3s;
+}
