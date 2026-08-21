@@ -558,3 +558,26 @@ body{
             repeat(2, 1fr);
     }
 }
+
+/* =========================
+   SMALL MOBILE
+========================= */
+
+@media (max-width: 420px) {
+
+    .forecast-container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .forecast-card {
+        padding: 18px 10px;
+    }
+
+    .forecast-card span {
+        font-size: 30px;
+    }
+
+    .weather-card {
+        padding: 22px 15px;
+    }
+}
