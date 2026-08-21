@@ -48,3 +48,13 @@ body{
 
     overflow-x: hidden;
 }
+
+/* =========================
+   APP CONTAINER
+========================= */
+
+.app {
+    width: min(1100px, 92%);
+    margin: auto;
+    padding: 35px 0 60px;
+}
