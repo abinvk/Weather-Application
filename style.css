@@ -255,3 +255,56 @@ body{
     font-size: 22px;
     font-weight: 700;
 }
+
+/* =========================
+   MAIN WEATHER
+========================= */
+
+.weather-main {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+
+    margin-bottom: 35px;
+}
+
+.weather-icon {
+    width: 150px;
+    height: 150px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background:
+        radial-gradient(
+            circle,
+            rgba(255, 255, 255, 0.12),
+            transparent 65%
+        );
+
+    font-size: 85px;
+
+    animation: float 4s ease-in-out infinite;
+}
+@keyframes float {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-8px);
+    }
+}
+
+#temperature {
+    font-size: clamp(55px, 8vw, 85px);
+    font-weight: 800;
+    line-height: 1;
+
+    letter-spacing: -4px;
+}
