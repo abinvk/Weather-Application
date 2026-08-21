@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+
+/* =========================
+   RESET
+========================= */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+:root{
+    --bg: #07111f;
+    --bg-secondary: #0d1b2d;
+    --card: rgba(255, 255, 255, 0.08);
+    --card-border: rgba(255, 255, 255, 0.12);
+    --text: #ffffff;
+    --muted: #9fb0c5;
+    --primary: #38bdf8;
+    --primary-dark: #0284c7;
+    --shadow: 0 25px 70px rgba(0, 0, 0, 0.35);
+}
+
+body{
+    font-family: "Inter", sans-serif;
+    min-height: 100vh;
+    color: var(--text);
+
+        background:
+        radial-gradient(
+            circle at 10% 20%,
+            rgba(14, 165, 233, 0.18),
+            transparent 35%
+        ),
+        radial-gradient(
+            circle at 90% 80%,
+            rgba(59, 130, 246, 0.14),
+            transparent 35%
+        ),
+        linear-gradient(
+            135deg,
+            #020617,
+            #07111f,
+            #0f172a
+        );
+
+    overflow-x: hidden;
+}
