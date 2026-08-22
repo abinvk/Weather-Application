@@ -13,3 +13,7 @@ const cityName = document.getElementById(cityName);
 const temperature = document.getElementById("temperature");
 const condition = document.getElementById("condition");
 const feelsLike = document.getElementById("feelsLike");
+
+const humidity = document.getElementById("humidity");
+const wind = document.getElementById("wind");
+const visibility = document.getElementById("visibility");
