@@ -17,3 +17,19 @@ const feelsLike = document.getElementById("feelsLike");
 const humidity = document.getElementById("humidity");
 const wind = document.getElementById("wind");
 const visibility = document.getElementById("visibility");
+
+// =================================
+// Search Weather
+// =================================
+
+function searchWeather() {
+
+    const city = cityInput.value.trim();
+
+    // Check empty input
+
+    if(city === ""){
+        alert("Please enter a city name.");
+        return;
+    }
+}
