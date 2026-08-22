@@ -32,6 +32,16 @@ function searchWeather() {
         alert("Please enter a city name.");
         return;
     }
-}
+
 
 // Temporary data (Not API Connect)
+
+cityName.textContent = city + ", India";
+temperature.textContent = "20°C";
+condition.textContent = "Partly Cloudy";
+feelsLike.textContent = "Feels like 31°C";
+humidity.textContent = "78%";
+wind.textContent = "4.2 m/s";
+visibility.textContent = "8 km";
+
+}
