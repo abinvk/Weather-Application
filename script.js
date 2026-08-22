@@ -33,3 +33,5 @@ function searchWeather() {
         return;
     }
 }
+
+// Temporary data (Not API Connect)
