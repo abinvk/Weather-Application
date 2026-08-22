@@ -45,3 +45,13 @@ wind.textContent = "4.2 m/s";
 visibility.textContent = "8 km";
 
 }
+
+// =================================
+// Search Button Click
+// =================================
+
+searchBtn.addEventListener("click", searchWeather);
+
+// =================================
+// Enter Key Search
+// =================================
