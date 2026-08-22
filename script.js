@@ -55,3 +55,11 @@ searchBtn.addEventListener("click", searchWeather);
 // =================================
 // Enter Key Search
 // =================================
+
+cityInput.addEventListener("keydown", function (event) {
+
+    if (event.key === "Enter") {
+        searchWeather();
+    }
+
+});
